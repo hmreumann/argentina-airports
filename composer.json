@@ -1,0 +1,31 @@
+{
+    "name": "hmreumann/argentina-airports",
+    "description": "This is a Laravel Package to import the airports from Argentina to a table.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hmreumann\\ArgentinaAirports\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Hmreumann\\ArgentinaAirports\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hernan Martinez Reumann",
+            "email": "hmreumann@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "10.x-dev",
+        "illuminate/console": "10.x-dev",
+        "illuminate/database": "*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "8.x-dev"
+    }
+}
