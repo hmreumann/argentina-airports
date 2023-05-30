@@ -11,6 +11,27 @@ This package can be installed through Composer.
 composer require hmreumann/argentina-airports
 ```
 
+Add the package to the autoload key in the composer json file.
+
+```
+"autoload": {
+    "psr-4": {
+        ...
+        "Hmreumann\\ArgentinaAirports\\": "vendor/hmreumann/argentina-airports/src/"
+    }
+},
+```
+
+Add the ArgentinaAirportsServiceProvider in the app.php config file.
+
+```
+/*
+* Package Service Providers...
+*/
+\Hmreumann\ArgentinaAirports\Providers\ArgentinaAirportsServiceProvider::class,
+```
+
+# Usage
 Create the airports table.
 
 ```
@@ -27,4 +48,4 @@ php artisan argentina-airports:import
 - Feel free to contribute to this package. Any suggestion is welcome.
 
 # License
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/license/mit/).
+This package is open-sourced software licensed under the [MIT license](https://opensource.org/license/mit/).
