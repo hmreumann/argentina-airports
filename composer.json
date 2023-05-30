@@ -31,7 +31,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Hmreumann\\ArgentinaAiports\\Providers\\ArgentinaAirportsServiceProvider"
+                "Hmreumann\\ArgentinaAirports\\Providers\\ArgentinaAirportsServiceProvider"
             ]
         }
     }
