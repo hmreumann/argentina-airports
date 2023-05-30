@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a850f2aa05c0b01d67012a68fb1a4ccc",
+    "content-hash": "7f08820153e7747fbe7b7203b8defa6e",
     "packages": [
         {
             "name": "brick/math",
@@ -656,12 +656,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "c2d1ccc4be8d199ebf29b03987e59637476fc787"
+                "reference": "6e7c0ab8cb3f8a444dccd1e1b6302fa4c5a8a5c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/c2d1ccc4be8d199ebf29b03987e59637476fc787",
-                "reference": "c2d1ccc4be8d199ebf29b03987e59637476fc787",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/6e7c0ab8cb3f8a444dccd1e1b6302fa4c5a8a5c8",
+                "reference": "6e7c0ab8cb3f8a444dccd1e1b6302fa4c5a8a5c8",
                 "shasum": ""
             },
             "require": {
@@ -849,7 +849,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-05-26T15:18:33+00:00"
+            "time": "2023-05-29T15:22:45+00:00"
         },
         {
             "name": "laravel/serializable-closure",
@@ -1415,12 +1415,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "7df3ea7802f768e7769c402da015dae169c44eb5"
+                "reference": "c1001b3bc75039b07f38a79db5237c4c529e04c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/7df3ea7802f768e7769c402da015dae169c44eb5",
-                "reference": "7df3ea7802f768e7769c402da015dae169c44eb5",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/c1001b3bc75039b07f38a79db5237c4c529e04c8",
+                "reference": "c1001b3bc75039b07f38a79db5237c4c529e04c8",
                 "shasum": ""
             },
             "require": {
@@ -1510,7 +1510,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-04-25T13:58:23+00:00"
+            "time": "2023-05-25T22:09:47+00:00"
         },
         {
             "name": "nette/schema",
@@ -2129,12 +2129,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/uuid.git",
-                "reference": "6f6cee9992db6272f1c03ad32400b0aff933001a"
+                "reference": "bef858d57e5ede26bae2e2f2b51b21fd7f6e7590"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/uuid/zipball/6f6cee9992db6272f1c03ad32400b0aff933001a",
-                "reference": "6f6cee9992db6272f1c03ad32400b0aff933001a",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/bef858d57e5ede26bae2e2f2b51b21fd7f6e7590",
+                "reference": "bef858d57e5ede26bae2e2f2b51b21fd7f6e7590",
                 "shasum": ""
             },
             "require": {
@@ -2214,7 +2214,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-05-15T22:03:57+00:00"
+            "time": "2023-05-29T22:02:16+00:00"
         },
         {
             "name": "symfony/console",
@@ -4474,19 +4474,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tijsverkoyen/CssToInlineStyles.git",
-                "reference": "c42125b83a4fa63b187fdf29f9c93cb7733da30c"
+                "reference": "416a55b7b527db57e323f5fefa77e2492b64a0b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tijsverkoyen/CssToInlineStyles/zipball/c42125b83a4fa63b187fdf29f9c93cb7733da30c",
-                "reference": "c42125b83a4fa63b187fdf29f9c93cb7733da30c",
+                "url": "https://api.github.com/repos/tijsverkoyen/CssToInlineStyles/zipball/416a55b7b527db57e323f5fefa77e2492b64a0b6",
+                "reference": "416a55b7b527db57e323f5fefa77e2492b64a0b6",
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
                 "ext-libxml": "*",
                 "php": "^5.5 || ^7.0 || ^8.0",
-                "symfony/css-selector": "^2.7 || ^3.0 || ^4.0 || ^5.0 || ^6.0"
+                "symfony/css-selector": "^2.7 || ^3.0 || ^4.0 || ^5.0 || ^6.0 || ^7.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0 || ^7.5 || ^8.5.21 || ^9.5.10"
@@ -4518,9 +4518,9 @@
             "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
             "support": {
                 "issues": "https://github.com/tijsverkoyen/CssToInlineStyles/issues",
-                "source": "https://github.com/tijsverkoyen/CssToInlineStyles/tree/2.2.6"
+                "source": "https://github.com/tijsverkoyen/CssToInlineStyles/tree/master"
             },
-            "time": "2023-01-03T09:29:04+00:00"
+            "time": "2023-05-30T10:13:11+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -5759,12 +5759,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "ab187e6d0d7e3e5ad19a5d542710022ec7ca97e5"
+                "reference": "46739478930289fa955fe4697688bae921a2674a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/ab187e6d0d7e3e5ad19a5d542710022ec7ca97e5",
-                "reference": "ab187e6d0d7e3e5ad19a5d542710022ec7ca97e5",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/46739478930289fa955fe4697688bae921a2674a",
+                "reference": "46739478930289fa955fe4697688bae921a2674a",
                 "shasum": ""
             },
             "require": {
@@ -5853,7 +5853,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-05-28T12:07:12+00:00"
+            "time": "2023-05-30T06:17:22+00:00"
         },
         {
             "name": "pimple/pimple",
@@ -7751,8 +7751,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "illuminate/support": 20,
-        "illuminate/console": 20,
         "orchestra/testbench": 20
     },
     "prefer-stable": false,

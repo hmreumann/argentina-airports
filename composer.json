@@ -19,10 +19,10 @@
             "email": "hmreumann@hotmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
-        "illuminate/support": "10.x-dev",
-        "illuminate/console": "10.x-dev",
+        "illuminate/support": "^10.0",
+        "illuminate/console": "^10.0",
         "illuminate/database": "*"
     },
     "require-dev": {
