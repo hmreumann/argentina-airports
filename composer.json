@@ -1,6 +1,6 @@
 {
     "name": "hmreumann/argentina-airports",
-    "description": "This is a Laravel Package to import the airports from Argentina to a table.",
+    "description": "This is a Package for Laravel to import the airports from Argentina.",
     "type": "library",
     "license": "MIT",
     "autoload": {
@@ -27,5 +27,12 @@
     },
     "require-dev": {
         "orchestra/testbench": "8.x-dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hmreumann\\ArgentinaAiports\\Providers\\ArgentinaAirportsServiceProvider"
+            ]
+        }
     }
 }
