@@ -13,20 +13,20 @@ return new class extends Migration
     {
         Schema::create('airports', function (Blueprint $table) {
             $table->id();
-            $table->string('local', 3);
+            $table->string('local', 3)->nullable();
             $table->string('oaci', 4)->nullable()->unique();
             $table->string('iata', 3)->nullable();
             $table->string('name');
-            $table->unsignedTinyInteger('type');
+            $table->unsignedTinyInteger('type')->nullable();
             $table->decimal('latitude', 16, 14);
             $table->decimal('longitude', 17, 14);
-            $table->decimal('elevation', 8, 2);
-            $table->unsignedTinyInteger('elevation_uom');
-            $table->unsignedTinyInteger('condition');
-            $table->unsignedTinyInteger('control');
-            $table->unsignedTinyInteger('fir');
+            $table->decimal('elevation', 8, 2)->nullable();
+            $table->unsignedTinyInteger('elevation_uom')->nullable();
+            $table->unsignedTinyInteger('condition')->nullable();
+            $table->unsignedTinyInteger('control')->nullable();
+            $table->unsignedTinyInteger('fir')->nullable();
             $table->unsignedTinyInteger('use')->nullable();
-            $table->unsignedTinyInteger('traffic');
+            $table->unsignedTinyInteger('traffic')->nullable();
             $table->timestamps();
         });
     }
